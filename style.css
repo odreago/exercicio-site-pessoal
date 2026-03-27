@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    outline: none;
+    text-decoration: none;
+     font-family: "EB Garamond", serif;
+
+}
+
+h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+h1 span{
+    color:rgb(186, 156, 72);
+}
+
+header {
+    background-color: brown;
+    
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header li a{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+header li a:hover {
+    color: rgb(255, 57, 57);
+    font-size: 14px;
+}
+
+section .conteiner,
+h1{
+    margin: 0 auto;
+max-width: 1200px;
+width: 100%;
+}
+
+header img {
+    padding-right: 10px;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+ position: relative;
+ padding: 1% 0;
+}
+
+.menu {
+    position:absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.hub{
+    background: url(imagens/hub.svg) center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.hub img{
+    width: 900px;
+   display: flex;
+   position: relative;
+   left: 50%;
+   transform: translatex(-50%);
+   padding-top: 50px;
+}
+
+.hub a {
+    color: aliceblue;
+    background-color: brown;
+    position: relative;
+    bottom: 560px;
+    padding: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.hub a:hover{
+    color:  rgb(255, 57, 57);
+    letter-spacing: 0.3px;
+    background-color: rgb(156, 69, 69);
+
+}
+
+.hub li{
+    position: relative;
+    left: 1000px;
+    display: inline;
+    top: 500px;
+}
+
+h2 {
+   padding: 30px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: rgb(156, 69, 69);
+    font-size: 25px;
+}
+
+
+.fama .bord {
+    width: fit-content;
+     display: block;
+  border: 1px solid rgb(156, 69, 69);
+   box-shadow: 0 0 10px rgb(241, 111, 111);
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.blocks-lore{
+display: grid;
+    grid-template-columns: repeat(auto-fit minmax(30rem,1fr));
+    gap: 1.5rem;
+    padding-top: 60px;
+}
+
+
+h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.blore{
+     display: flex;
+   text-align: left;
+   border: 3px solid rgb(156, 69, 69);
+   margin: 0 auto;
+   width: fit-content;
+   border-radius: 6px;
+}
+
+.blore img{
+   width: 200px;
+   border-radius: 5px;
+}
+
+.blore p{
+    max-width: 200px;
+    bottom: 200px;
+    margin-left: 8px;
+
+}
+
+.blore a{       
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 8px;
+    position: relative;
+    top:210px;
+    right: 354px;
+}
+
+.blore li{
+    display: block;
+}
+
+.blore a:hover{
+    color: black;
+    background-color: aliceblue;
+    
+}
+
+.person {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+
+
+
